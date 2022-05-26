@@ -1,0 +1,73 @@
+* {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+}
+
+html {
+    cursor: url(/imagens/mata_mosca.png) 30 30, auto;
+}
+
+body {
+    background-image: url(/imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+.mosca01 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosca02 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosca03 {
+    width: 90px;
+    height: 90px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: 1px solid #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro, .score {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* GAME OVER CSS */
+
+.btn-reiniciar {
+    background-color: #5A7997;
+    color: #fff;
+}
+
+.btn-reiniciar:hover {
+    background-color: #49627a;
+    color: #fff;
+}
