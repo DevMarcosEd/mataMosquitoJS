@@ -1,3 +1,3 @@
 # mataMosquitoJS
 
-Minigame feito com javascript puro
+Aplicando conhecimento em javascript para desenvolver um mini-game de mata mosquito, conteúdo do professor matheus battisti.
